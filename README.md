@@ -1,10 +1,13 @@
-![React AI Resume Builder](https://github.com/rrs301/AI-Resume-Builder/assets/20216436/0a78231c-754e-4f2e-94b0-ae9474cbf613)
+AI-Powered Resume Builder
+A modern, full-stack application that helps users create professional, ATS-optimized resumes in minutes using Google Gemini AI.
 
-# React + Vite
+ Key Features
+AI Content Generation: Automatically generates professional summaries and experience bullet points using Google Gemini.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Preview: Real-time editing and preview of resume templates.
 
-Currently, two official plugins are available:
+Secure Auth: User registration and social login (Google/GitHub) via Clerk.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+PDF Export: High-fidelity, print-ready PDF downloads using a custom HTML-to-PDF engine.
+
+Data Persistence: Headless CMS integration for saving and managing multiple resume versions.
